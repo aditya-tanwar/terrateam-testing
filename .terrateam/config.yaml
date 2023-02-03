@@ -1,4 +1,4 @@
 dirs:
-  .:
+  '.':
     when_modified:
-      file_patterns: ['./*.json']
+      file_patterns: ["${DIR}/*.json"]
